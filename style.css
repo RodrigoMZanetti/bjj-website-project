@@ -10,6 +10,12 @@ font-family:SuperVanilla, sans-serif;
 background-image: linear-gradient(to right, rgb(247, 139, 139), rgba(246, 47, 47, 0.934));
 }
 
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 header{
   background-image: linear-gradient(to bottom, rgb(69, 1, 1), rgb(139, 4, 4));
   min-height: 150px;
@@ -18,8 +24,10 @@ header{
 }
 
 header > h1{
+  font-family: "Kaushan Script", cursive;
   color: rgb(253, 2, 2);
-  font-size: 4em;
+  font-size: 6em;
+  margin: auto;
 }
 
 nav{
