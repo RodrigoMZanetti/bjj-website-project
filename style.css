@@ -51,6 +51,19 @@ nav > a:hover{
   color: white;
 }
 
+.images-front_organize{
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.images-front_organize__list{
+  align-items: baseline;
+}
 
 .dropdown {
   position: relative;
