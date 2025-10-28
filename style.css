@@ -251,3 +251,8 @@ p{
   border-radius: 10%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
+.form__input:focus {
+  border: 2px solid red;
+  outline: none;
+}
