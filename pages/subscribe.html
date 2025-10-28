@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>subscribe</title>
+
+    <link rel="stylesheet" href="../style.css" />
+
+    <link
+      rel="shortcut icon"
+      href="../favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>Subscribe</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="pages/news.html">NEWS</a>
+
+      <div class="dropdown">
+        <a href="pages/curiosities.html" class="dropbtn">CURIOSITIES</a>
+        <div class="dropdown-content">
+          <a href="pages/The_Gentle_Art.html"
+            >Jiu-Jitsu is called “The Gentle Art”</a
+          >
+          <a href="">World Championship</a>
+          <a href="">Black belt</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="pages/supplementation.html" class="dropbtn">SUPPLEMENTATION</a>
+        <div class="dropdown-content">
+          <a href="pages/creatine.html">Creatine</a>
+          <a href="pages/Whey Protein.html">Whey Protein</a>
+          <a href="pages/beta-alanine.html">Beta-Alanine</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="pages/training.html" class="dropbtn">TRAINING</a>
+        <div class="dropdown-content">
+          <a href="">Drills to Improve Guard Passing</a>
+          <a href="">Strength & Conditioning for BJJ</a>
+          <a href="">Recovery and Injury Prevention</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="pages/habits.html" class="dropbtn">HABITS</a>
+        <div class="dropdown-content">
+          <a href="">Consistency Over Intensity</a>
+          <a href="">Nutrition and Hydration</a>
+          <a href="">Sleep and Mental Focus</a>
+        </div>
+      </div>
+
+      <a href="pages/speak_with_us.html">SPEAK WITH US</a>
+
+      <a href="pages/subscribe.html">SUBSCRIBE</a>
+    </nav>
+
+    <main class="main">
+      <h2 class="main__subtitle">Subscription Form</h2>
+      <p class="main__paragraph">
+        Fill out this form if you’d like to receive weekly BJJ news, as well as
+        updates from our website. We’ll also let you know about special
+        promotions in our stores and discount coupons from partner sports
+        brands. Don’t miss out! (No spam. Your data is encrypted for maximum
+        security.)
+      </p>
+
+      <form class="form" action="">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          value=""
+          class="form__input"
+          minlength="3"
+          placeholder="Type your name"
+        />
+
+        <label for="number">Age</label>
+        <input
+          type="number"
+          id="number"
+          value=""
+          min="10"
+          max="110"
+          class="form__input"
+          placeholder="Your age"
+        />
+
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          id="email"
+          value=""
+          class="form__input"
+          placeholder="Your e-mail"
+        />
+
+        <div class="form__buttons">
+          <button type="submit" class="form__buttons--submit">Submit</button>
+          <button type="reset" class="form__buttons--reset">Reset</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

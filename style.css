@@ -5,6 +5,13 @@
   src: url('./fonts/Super-Vanilla.ttf') format('truetype');
 }
 
+h1{
+  font-family: "Kaushan Script", cursive;
+  color: rgb(253, 2, 2);
+  font-size: clamp(2em, 6vw, 6em);
+  margin: auto;
+}
+
 body {
 font-family:SuperVanilla, sans-serif;
 background-image: linear-gradient(to right, rgb(247, 139, 139), rgba(246, 47, 47, 0.934));
@@ -23,12 +30,11 @@ header{
   padding-top: 40px;
 }
 
-header > h1{
-  font-family: "Kaushan Script", cursive;
-  color: rgb(253, 2, 2);
-  font-size: clamp(2em, 6vw, 6em);
-  margin: auto;
-
+.header{
+  background-image: linear-gradient(to bottom, rgb(69, 1, 1), rgb(139, 4, 4));
+  min-height: 150px;
+  text-align: center;
+  padding-top: 40px;
 }
 
 nav{
@@ -188,6 +194,18 @@ main{
 
 }
 
+.main{
+    min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, rgb(249, 220, 220),rgb(249, 142, 142));
+  box-shadow: 0px 0px 10px black;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px;
+}
+
 .praticante{
   display:block;
   margin: 10px auto;
@@ -207,4 +225,29 @@ h2{
 
 p{
   text-align: justify;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main__subtitle{
+  margin: 0;
+  padding: 0;
+}
+
+.main__paragraph{
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.form__buttons{
+  margin-top: 20px;
+}
+
+.images-front_organize__list-image{
+  border-radius: 10%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
