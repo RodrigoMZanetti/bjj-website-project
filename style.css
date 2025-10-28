@@ -256,3 +256,19 @@ p{
   border: 2px solid red;
   outline: none;
 }
+
+.form__buttons--submit:hover:enabled{
+  background-color: #ff1a1a;
+  color: white;
+}
+
+.form__buttons--submit:enabled{
+  background-color: #410cc6;
+  color: white;
+}
+
+.form__buttons--reset:hover{
+  background-color: #ff1a1a;
+  color: white;
+}
+
